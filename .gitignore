@@ -1,0 +1,7 @@
+node_modules/
+docs/
+liv/
+*.zip
+test.*
+test/
+src/*.txt

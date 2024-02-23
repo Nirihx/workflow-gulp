@@ -1,0 +1,21 @@
+// body
+body{
+    background: #e0e0e0;
+    .content{
+        width: 50%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        margin: auto;
+    }
+}
+// title
+h1{
+    color: rgb(151, 137, 8);
+    text-align: center;
+    font-size: 5rem;
+}
