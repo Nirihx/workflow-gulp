@@ -10,8 +10,8 @@
 * `gulp` pour les tâche par default
 * `build` pour builer le projet
 * `gulp images` exporter les images
-* `gulp allPlugins` exporter tous les fichiers JS, images & Fonts dans `dist/vendor` (Bootstrap, Jquery, Slick, Lodash, Lazysize, mCustomScrollBar)
-* `gulp allSass` exporter tous les fichiers scss et css dans `src/vendor` (Bootstrap, Slick, mCustomScrollBar)
+* `gulp allPlugins` exporter tous les fichiers JS, images & Fonts dans `dist/vendors` (Bootstrap, Jquery, Slick, Lodash, Lazysize, mCustomScrollBar)
+* `gulp allSass` exporter tous les fichiers scss et css dans `src/vendors` (Bootstrap, Slick, mCustomScrollBar)
 
 Dans cette projet, Gulp est configurer pour executer les fonctions suivant: 
 
