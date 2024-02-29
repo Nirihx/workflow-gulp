@@ -179,7 +179,7 @@ function fontTask(){
 // vendor jQuery 
 function jQueryTask(){
     return src('node_modules/jquery/dist/jquery.min.js')
-    .pipe(dest(destination.projetDist + '/assets/vendor/jquery'));
+    .pipe(dest(destination.projetDist + '/assets/vendors/jquery'));
 }
 
 // vendor bootstrap js 
@@ -188,38 +188,38 @@ function bootstrapJsTask(){
         'node_modules/bootstrap/dist/js/bootstrap.min.js',
         'node_modules/bootstrap/dist/js/bootstrap.min.js.map'
     ])
-    .pipe(dest(destination.projetDist + '/assets/vendor/bootstrap'));
+    .pipe(dest(destination.projetDist + '/assets/vendors/bootstrap'));
 }
 // vendor bootstrap js 
 function bootstrapSassTask(){
     return src([
         'node_modules/bootstrap/scss/*.*'
     ])
-    .pipe(dest(destination.projetSrc + '/assets/vendor/bootstrap'));
+    .pipe(dest(destination.projetSrc + '/assets/vendors/bootstrap'));
 }
 
 // vendor malihu-custom-scrollbar 
 function customScrollbarTask(){
     return src('node_modules/malihu-custom-scrollbar-plugin-3.1.7/jquery.mCustomScrollbar.js')
-    .pipe(dest(destination.projetDist + '/assets/vendor/malihu-custom-scrollbar'));
+    .pipe(dest(destination.projetDist + '/assets/vendors/malihu-custom-scrollbar'));
 }
 
 // vendor malihu-custom-scrollbar 
 function customScrollbarSassTask(){
     return src('node_modules/malihu-custom-scrollbar-plugin-3.1.7/jquery.mCustomScrollbar.css')
-    .pipe(dest(destination.projetSrc + '/assets/vendor/malihu-custom-scrollbar'));
+    .pipe(dest(destination.projetSrc + '/assets/vendors/malihu-custom-scrollbar'));
 }
 
 // vendor lazysizeTask 
 function lazysizeTask(){
     return src('node_modules/lazysizes/lazysizes.min.js')
-    .pipe(dest(destination.projetDist + '/assets/vendor/lazysize'));
+    .pipe(dest(destination.projetDist + '/assets/vendors/lazysize'));
 }
 
 // vendor lodashTask
 function lodashTask(){
     return src('node_modules/lodash/lodash.min.js')
-    .pipe(dest(destination.projetDist + '/assets/vendor/lodash'));
+    .pipe(dest(destination.projetDist + '/assets/vendors/lodash'));
 }
 
 // vendor slick-carousel
@@ -229,7 +229,7 @@ function slickTask(){
         'node_modules/slick-slider/slick/slick.min.js',
         'node_modules/slick-slider/slick/ajax-loader.gif'
     ])
-    .pipe(dest(destination.projetDist + '/assets/vendor/slick'));
+    .pipe(dest(destination.projetDist + '/assets/vendors/slick'));
 }
 
 // vendor slick-carousel
@@ -238,7 +238,7 @@ function slickSassTask(){
         'node_modules/slick-slider/slick/slick-theme.scss',
         'node_modules/slick-slider/slick/slick.scss'
     ])
-    .pipe(dest(destination.projetSrc + '/assets/vendor/slick'));
+    .pipe(dest(destination.projetSrc + '/assets/vendors/slick'));
 }
 
 // Watch task
